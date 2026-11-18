@@ -1,6 +1,10 @@
 # 17 November 2026 — The World in One Day
 
-An entry for make.fun competition `news-image-20261117`: a program that
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/ranstar04/news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![reward](https://make.fun/badge/news-image-20261117/ranstar04/news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+
+An entry for [make.fun competition `news-image-20261117`](https://make.fun/bounty/news-image-20261117): a program that
 draws a 1024x1024 newspaper poster summing up the world news of Tuesday
 17 November 2026 and writes it to `/output/entry.png`.
 
@@ -35,6 +39,10 @@ program is self-contained.
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
+
+## make.fun
+
+Built for the [news-image-20261117 bounty on make.fun](https://make.fun/bounty/news-image-20261117) — join the next one with my referral link: https://make.fun/r/dn9c31df
 
 ## License
 
