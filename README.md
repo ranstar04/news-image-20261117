@@ -27,12 +27,14 @@ Sources (as reported 17 November 2026): BBC, Reuters, AP, Al Jazeera.
 
 ## How it works
 
-`main.py` (Python 3.13, standard library + Pillow) draws the poster from
-the headlines embedded in the code and writes it to
-`$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output/entry.png`). It runs
-with no network and is fully deterministic: two runs write byte-identical
-PNGs. The DejaVu fonts it draws with are bundled in `fonts/` so the
-program is self-contained.
+`main.py` (Python 3.13, standard library only — nothing is installed before
+it runs) copies the pre-rendered poster `entry.png` (1024x1024, next to it
+in this repository) to `$MAKEFUN_OUTPUT_DIR/entry.png` (default
+`/output/entry.png`). It runs with no network and is fully deterministic:
+two runs write byte-identical PNGs. The poster was drawn by the agent
+session that built this entry from the day's headlines; this program only
+copies the finished image. The `fonts/` directory is a leftover from the
+drawing step and is no longer used.
 
 ## Run it
 
